@@ -1,0 +1,13 @@
+﻿  stdafx.cpp
+  FileReader.cpp
+  FileWriter.cpp
+  ForwardHCA.cpp
+  InverseHCA.cpp
+  Matrix.cpp
+  MatrixVectorManipulations.cpp
+  Solver.cpp
+  TAM.cpp
+  Generating code
+  All 596 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  TAM.vcxproj -> G:\JObApplication\SoftwareDevExperiences\TAM\Release\TAM.exe
