@@ -15,13 +15,11 @@ Both forware and inverse problems can be solved using TAM. All codes are present
 Temperature history is to be placed in the *data* folder, output file will be generated in the *output* folder. If you start the app by double clicking TAM.exe, the user interface will show all files available in the *data* folder, along with assigning a number for each file. At first, UI will ask the user the problem type is to be solved, i.e. forward or inverse type. 
 
 #### Example:
+For both types of problems, first we need to fix number of points we want to consider over a surface. For example, a pipe-cross-section can be considered a 2D problem, where only half of the X-section will be sufficient for the forward/inverse problems due to symmetry. So we can consider any the number of points (e.g. 2, 4, 6, 8 etc.) over inner and ourter surfaces. In the data folder, four data sets have been provided. 
 
+Consider a 2D pipe problem, where number of points are 18 (lets say 18 sensors are placed over the outerwall). So we will have a temperature history of 18 points. We also need *reference temperature* file. Using these two files (outer wall temperature history and reference temperature) we can solve IHCP to know the temperature history of inner wall. Similarly, for FHCP, we need reference temperature an inner wall temperature history.
 
-
-
-  6. It will ask for two input data files, reference data and inner temperature data for Forward problems
-	and outerTemp data for inverse problems.
-  7. The program will generate a message when result file is generated. 
+Two example screen shots of the UI has been given in the **UI.pdf** file. This 2D pipe problem considers 18 points, and temperature history of 500 seconds. Once the computation is done with forward or inverse problem, the program will generate a message. Phease have a look at UI.pdf file.  
 
 
 
